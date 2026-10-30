@@ -1,0 +1,47 @@
+{
+  "name": "dynamic-component-service",
+  "type": "module",
+  "version": "0.0.0",
+  "private": true,
+  "description": "TresJS Vue application",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "node server.js",
+    "serve": "concurrently \"vite build --watch\" \"node server.js\"",
+    "lint": "eslint ",
+    "lint:fix": "eslint  --fix"
+  },
+  "dependencies": {
+    "@dgreenheck/ez-tree": "^1.1.0",
+    "@pangenerator/tweakpane-textarea-plugin": "^2.0.0",
+    "@pmndrs/vanilla": "1.25.0",
+    "@tresjs/cientos": "5.2.1",
+    "@tresjs/core": "5.2.1",
+    "@tresjs/leches": "latest",
+    "@tresjs/post-processing": "latest",
+    "concurrently": "^9.2.1",
+    "express": "^5.2.1",
+    "html-to-image": "1.11.13",
+    "json5": "^2.2.3",
+    "naive-ui": "^2.43.2",
+    "three": "^0.180.0",
+    "three-custom-shader-material": "^5.4.0",
+    "three-stdlib": "^2.36.0",
+    "tweakpane": "^4.0.5",
+    "vue": "^3.5.21",
+    "vue-router": "^4.6.4"
+  },
+  "devDependencies": {
+    "@originjs/vite-plugin-federation": "^1.4.1",
+    "@tresjs/eslint-config": "^1.1.0",
+    "@types/three": "latest",
+    "@vitejs/plugin-vue": "latest",
+    "eslint": "^9.16.0",
+    "typescript": "latest",
+    "vite": "^7.1.6",
+    "vite-plugin-glsl": "^1.5.1",
+    "vue-tsc": "latest"
+  },
+  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"
+}
